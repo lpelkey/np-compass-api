@@ -11,7 +11,7 @@ app.post('/api', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': 'x-api-key': 'ANTHROPIC_KEY_HERE',
+        'x-api-key': 'ANTHROPIC_KEY_HERE',
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify(req.body)
